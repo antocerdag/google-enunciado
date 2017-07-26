@@ -82,4 +82,18 @@
   bottom: 70px;
   right: 35px; }
 
+/* SECCION TRES */
+.img-varias {
+  width: 100%; }
+
+/* FOOTER */
+.footertitle {
+  font-weight: 600; }
+
+.lineagris {
+  background-color: #c3bfbf;
+  width: 113%;
+  height: 2px;
+  margin-left: -5%; }
+
 /*# sourceMappingURL=main.css.map */

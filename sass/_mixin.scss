@@ -1,0 +1,12 @@
+@mixin txthtres(){
+	font-weight: 500;
+}
+
+@mixin bajada(){
+	font-weight: 500;
+    font-size: 17px;
+}
+
+@mixin tag(){
+	font-family: 'Roboto Mono', monospace;
+}

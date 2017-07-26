@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-default{
+	background-color:transparent;
+	border-color:transparent;
+}
+
+.navbar-nav {
+   width: 100%;
+   text-align: center;
+    li {
+     float: none;
+     display: inline-block;
+     color:white;
+   }
+}
+
+.logo-google{
+	margin-left: 89%;
+}
+
+.search{
+	position: relative;
+    top: -130px;
+}
+/*SECCION UNO*/
+.titulo{
+	@include txthtres();
+}
+
+.bajada{
+	@include bajada();
+}
+
+.tag{
+	@include tag();
+}
+
+/* LINEA AZUL*/
+
+.lineaazul{
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 3px;
+	background-color:$azul;
+}
+
+/* SECCION DOS */
+
+.fotogldesign{
+	width: 84%;
+}
+.fecha{
+	font-weight:800;
+	color:$gris_claro_fecha;
+}
+.descrip{
+	width: 85%;
+    font-weight: 500;
+    margin-top: 5%;
+
+}
+
+.azul{
+	color:$azul;
+	font-weight:900;
+}
+
+
+.cuadrito{
+background-color: #F1F3F4;
+    width: 100%;
+    height: 85px;
+    margin-top: 33px;
+}
+.txt-cuadrito{
+    font-size: 18px;
+    font-weight: 100;
+    padding: 17px;
+}
+.azul2{
+	color: #4285f4;
+	font-weight: 100;
+    font-size: 18px;
+    padding-left: 19px;
+    margin-top: -22px;
+}
+.img-pequenia{
+	position: relative;
+    bottom: 70px;
+    right: 35px;
+}
